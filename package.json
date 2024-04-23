@@ -7,11 +7,20 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "node src/server.ts"
   },
   "dependencies": {
+    "@types/youtube-dl": "^3.0.5",
+    "@vercel/node": "^3.0.27",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ffmpeg-static": "^5.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "youtube-dl-exec": "^3.0.0",
+    "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
